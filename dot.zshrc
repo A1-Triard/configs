@@ -21,7 +21,6 @@ PROMPT='[%n@%m %1~]%# '
 
 export VISUAL='DISPLAY=:0 nvim'
 
-#eval $(thefuck --alias)
 alias bat='bat -p'
 alias bc='bc -lq'
 alias rm='rm -i'
@@ -29,9 +28,6 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ls='ls --color'
 alias vi="$VISUAL"
-alias reboot='loginctl reboot'
-alias poweroff='loginctl poweroff'
-alias fbterm='fbterm -n XTerminus --cursor-shape=4 --cursor-interval=0 -- sh -c TERM=fbterm zsh'
 
 echo__() {
     printf "%s\n" "$1"
