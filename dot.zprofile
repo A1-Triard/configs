@@ -1,3 +1,7 @@
+echo
+fortune
+echo
+
 umask 007
 
 if [ -d "$HOME/.local/bin" ]; then
